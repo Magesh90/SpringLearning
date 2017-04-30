@@ -5,7 +5,6 @@ import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 import com.application.util.HibernateUtil;
 import com.views.model.User;
-import com.views.model.User_details;
 
 public class UserDetailsDAO extends HibernateDaoSupport {
 
