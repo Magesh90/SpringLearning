@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class RequestHandlingController {
 
-	String message = "Loading Controllers";
+	String message = "Loading Controllers for master";
 
 	@RequestMapping("/hello")
 	public ModelAndView showMessage(
